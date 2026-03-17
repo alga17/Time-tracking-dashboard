@@ -177,3 +177,22 @@ body {
     background-color: var(--self-care);
     background-image: url('images/icon-self-care.svg'); 
 }
+
+@media (max-width: 325px) {
+    .grid-container {
+    margin: 50px 0;
+    grid-template-columns: 255px;
+    grid-template-rows: repeat(8, 255px);
+    grid-template-areas: 
+        "user"
+        "user"
+        "box-work" 
+        "box-play"
+        "box-study"
+        "box-exercise" 
+        "box-social" 
+        "box-selfcare";
+    gap: 30px;
+}
+
+}
