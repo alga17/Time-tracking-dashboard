@@ -59,6 +59,17 @@ body {
     color: white;
 }
 
+.choice:hover {
+    color: white;
+    cursor: pointer
+}
+
+.choice.active{
+    color: white;
+}
+
+
+
 .user {
     flex-direction: column;
     grid-area: user; 
@@ -76,6 +87,7 @@ body {
 .name-box > img {
     height: 5px;
     margin-left: auto;
+    cursor: pointer
 }
 .user-card {
     display: flex;
